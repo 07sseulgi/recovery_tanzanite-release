@@ -1,0 +1,6 @@
+=== 2026-07-05 ====
+• recovery: scripts: optimize modules_mount and load-touch-module
+• recovery: fstab: increase readahead_size_kb to 2048
+• recovery: modules: remove non-essential modules for faster boot
+• tanzanite: fox: optimize BoardConfig and fix decryption services
+• tanzanite: patch ft3519t to remove scp_ipidev sigcheck
