@@ -1,3 +1,8 @@
+=== 2026-08-05 ===
+• tanzanite: recovery: Refactor fstab for proper partition mounting and AVB
+• tanzanite: Sync AB partitions and add post-flash tools
+• tanzanite: BoardConfig: Align partition and CPU configs with DT
+
 === 2026-07-05 ====
 • recovery: scripts: optimize modules_mount and load-touch-module
 • recovery: fstab: increase readahead_size_kb to 2048
