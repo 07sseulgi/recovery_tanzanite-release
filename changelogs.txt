@@ -1,3 +1,10 @@
+=== 2026-11-05 ===
+• bootable_recovery: integrated custom Fuel Gauge Look-Up Tables (LUTs) for precise SoC (State of Charge) mapping
+• bootable_recovery: ppplied 88 mOhm Internal Resistance (IR) compensation to mitigate voltage-sag induced percentage fluctuations during high-load I/O operations
+• bootable_recovery: implemented fast-charge damping algorithm to stabilize UI percentage reporting during high-current charging phases
+• bootable_recovery: sync fuel gauge hardware registers with MediaTek MT6789 specific power management IC (PMIC)
+• bootable_recovery: refined battery capacity calculation logic to prevent "jumping" percentage during low-voltage states
+
 === 2026-08-05 ===
 • tanzanite: recovery: Refactor fstab for proper partition mounting and AVB
 • tanzanite: Sync AB partitions and add post-flash tools
